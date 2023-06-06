@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>946</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>StokEkranı</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(48, 13, 47);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>641</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>100</number>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Product Code</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Color</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Size</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Total Product</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>191</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(66, 64, 66);border-radius:30px</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Script</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color:rgb(66, 64, 66);</string>
+     </property>
+     <property name="text">
+      <string>Product Code</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Script</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color:rgb(66, 64, 66);</string>
+     </property>
+     <property name="text">
+      <string>Product Color</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Script</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color:rgb(66, 64, 66);</string>
+     </property>
+     <property name="text">
+      <string>Product Size</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Script</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color:rgb(66, 64, 66);</string>
+     </property>
+     <property name="text">
+      <string> Product Description</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pBEkle">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>450</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Print</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{color:white;border:none;border-radius:15px;}
+QPushButton{background-color: rgb(48, 13, 47);}
+QPushButton::hover{background-color:black;}</string>
+     </property>
+     <property name="text">
+      <string>ADD</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>330</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Script</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color:rgb(66, 64, 66);</string>
+     </property>
+     <property name="text">
+      <string>Stock Number</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lnstokSayi">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>360</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(29,37,97);border:none;border-radius:15px;color:white;padding-left:10px;padding-right:10px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pBSil">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>500</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Print</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{color:white;border:none;border-radius:15px;}
+QPushButton{background-color: rgb(48, 13, 47);}
+QPushButton::hover{background-color:black;}</string>
+     </property>
+     <property name="text">
+      <string>DELETE</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cmStokRenk">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(29,37,97);border:none;border-radius:15px;color:white;padding-left:10px;padding-right:10px;</string>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>Mix White Tik</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>White Tik</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mix Argento</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Argento</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Light Oak</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Textured White</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Oregon Walnut</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Drak Walnut</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Maple</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="cmStokolcu">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(29,37,97);border:none;border-radius:15px;color:white;padding-left:10px;padding-right:10px;</string>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>90</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>80</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>70</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="cmStokkod">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(29,37,97);border:none;border-radius:15px;color:white;padding-left:10px;padding-right:10px;</string>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+     <item>
+      <property name="text">
+       <string>300</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>301</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>302</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>303</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>304</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>305</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>306</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>307</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>308</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>309</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>310</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>311</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>312</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>313</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>314</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTextEdit" name="textEditS_aciklama">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>141</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(29,37,97);border:none;border-radius:15px;color:white;padding-left:10px;padding-right:10px;
+</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Script</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+background-color:rgb(66, 64, 66);
+border-radius:17px</string>
+    </property>
+    <property name="text">
+     <string>  ADD STOCK SCREEN</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>946</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
